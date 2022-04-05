@@ -34,8 +34,12 @@ const condition = (cond, msg = 'Condition was true', errmsg = 'Condition was fal
     }
 }
 
+const table = (object) => {
+    console.table(object);
+}
+
 // Object
-const xconsolejs = {
+const allcconsole = {
     log, 
     logStyles,
     showTutorial,
@@ -43,7 +47,8 @@ const xconsolejs = {
     error,
     warn,
     clear,
-    condition
+    condition,
+    table
 }
 
-export { xconsolejs };
+export { allcconsole };

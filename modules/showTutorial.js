@@ -1,39 +1,39 @@
-import { xconsolejs } from './basicFunctions';
+import { allcconsole } from './basicFunctions';
 
 const showTutorial = () => {
     // Importing dependencies
-    xconsolejs.warn(`This app contains just a preview of the xconsolejs BETA with bugs and not full functionality.`);
-    xconsolejs.log(`📃 Logs from xconsolejs`, xconsolejs.logStyles.modern(`#ffffff`))
-    xconsolejs.success(`Imported all 📦 modules`);
-    xconsolejs.success(`Loaded all 😃 dependencies`);
-    xconsolejs.log(`
+    allcconsole.warn(`This app contains just a preview of the allcconsole BETA with bugs and not full functionality.`);
+    allcconsole.log(`📃 Logs from allcconsole`, allcconsole.logStyles.modern(`#ffffff`))
+    allcconsole.success(`Imported all 📦 modules`);
+    allcconsole.success(`Loaded all 😃 dependencies`);
+    allcconsole.log(`
     
     `);
     // Tutorial
-    xconsolejs.log(`📕 This is a tutorial of the new xconsolejs BETA`, xconsolejs.logStyles.flat('black', '#3498db'));
-    xconsolejs.log(``)
-    xconsolejs.log(`Use the following in Code`, xconsolejs.logStyles.flat('black', '#ffffff'));
-    xconsolejs.log(`📃 Use xconsolejs.log() to log something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`⚠️ Use xconsolejs.warn() to warn about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`❌ Use xconsolejs.error() to throw an error about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`✅ Use xconsolejs.success() to throw a success message about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`🟦 Use xconsolejs.condition() to check and log to the console if the condition is true or false`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`🗑️ Use xconsolejs.clear() to clear the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`😃 Use xconsolejs.showTutorial() to show the tutorial of the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(``)
-    xconsolejs.warn(`Since xconsolejs is made using es6 modules, the variables cannot be used directly from the console. To use the following, we will be using window instead of xconsolejs`);
-    xconsolejs.log(`Use the following in Console`, xconsolejs.logStyles.flat('black', '#ffffff'));
-    xconsolejs.log(`📃 Use window.log() to log something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`⚠️ Use window.warn() to warn about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`❌ Use window.error() to throw an error about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`✅ Use window.success() to throw a success message about something to the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`🟦 Use window.condition() to check and log to the console if the condition is true or false`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`🗑️ Use window.clear() to clear the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(`😃 Use window.showTutorial() to show the tutorial of the console`, xconsolejs.logStyles.modern('#ffffff'));
-    xconsolejs.log(``);
-    xconsolejs.log(`To disable this tutorial from popping up everytime you open the console, add the disableTutorial attribute to the body tag`, xconsolejs.logStyles.flat('black', '#3498db'));
-    xconsolejs.log(``);
-    xconsolejs.log(`📃 Logs from your code`, xconsolejs.logStyles.modern(`#ffffff`))
+    allcconsole.log(`📕 This is a tutorial of the new allcconsole BETA`, allcconsole.logStyles.flat('black', '#3498db'));
+    allcconsole.log(``)
+    allcconsole.log(`Use the following in Code`, allcconsole.logStyles.flat('black', '#ffffff'));
+    allcconsole.log(`📃 Use allcconsole.log() to log something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`⚠️ Use allcconsole.warn() to warn about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`❌ Use allcconsole.error() to throw an error about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`✅ Use allcconsole.success() to throw a success message about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`🟦 Use allcconsole.condition() to check and log to the console if the condition is true or false`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`🗑️ Use allcconsole.clear() to clear the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`😃 Use allcconsole.showTutorial() to show the tutorial of the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(``)
+    allcconsole.warn(`Since allcconsole is made using es6 modules, the variables cannot be used directly from the console. To use the following, we will be using window instead of allcconsole. The allcconsole variable still works in some browsers but if doesn't work, you can use the following.`);
+    allcconsole.log(`Use the following in Console`, allcconsole.logStyles.flat('black', '#ffffff'));
+    allcconsole.log(`📃 Use window.allconsole.log() to log something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`⚠️ Use window.allconsole.warn() to warn about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`❌ Use window.allconsole.error() to throw an error about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`✅ Use window.allconsole.success() to throw a success message about something to the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`🟦 Use window.allconsole.condition() to check and log to the console if the condition is true or false`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`🗑️ Use window.allconsole.clear() to clear the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(`😃 Use window.allconsole.showTutorial() to show the tutorial of the console`, allcconsole.logStyles.modern('#ffffff'));
+    allcconsole.log(``);
+    allcconsole.log(`To disable this tutorial from popping up everytime you open the console, add the disableTutorial attribute to the body tag`, allcconsole.logStyles.flat('black', '#3498db'));
+    allcconsole.log(``);
+    allcconsole.log(`📃 Logs from your code`, allcconsole.logStyles.modern(`#ffffff`))
 }
 
 export { showTutorial }

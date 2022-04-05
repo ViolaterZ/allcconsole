@@ -1,22 +1,22 @@
-#!/usr/bin/env node
 import { linkFont } from './modules/insertFont';
-import { xconsolejs } from './modules/basicFunctions'
+import { allcconsole } from './modules/basicFunctions'
 
 linkFont();
 
-window.log = xconsolejs.log
-window.logStyles = xconsolejs.logStyles
-window.showTutorial = xconsolejs.showTutorial
-window.success = xconsolejsjs.success
-window.error = xconsolejs.error
-window.warn = xconsolejs.warn
-window.clear = xconsolejs.clear
-window.condition = xconsolejs.condition
+// window.log = allcconsole.log
+// window.logStyles = allcconsole.logStyles
+// window.showTutorial = allcconsole.showTutorial
+// window.success = allcconsole.success
+// window.error = allcconsole.error
+// window.warn = allcconsole.warn
+// window.clear = allcconsole.clear
+// window.condition = allcconsole.condition
+window.allcconsole = allcconsole
 
 if (document.body.getAttribute('disableTutorial') === 'true' || document.body.getAttribute('disableTutorial') === '') {
-    xconsolejs.success(`Tutorial was disabled`);
+    allcconsole.success(`Tutorial was disabled`);
 } else {
-    xconsolejs.showTutorial();
+    allcconsole.showTutorial();
 }
 
-export { xconsolejs }
+export { allcconsole }
