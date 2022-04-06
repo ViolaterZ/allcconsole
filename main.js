@@ -1,5 +1,5 @@
-import { linkFont } from './modules/insertFont';
-import { allcconsole } from './modules/basicFunctions'
+import { linkFont } from './modules/insertFont.js';
+import { allcconsole } from './modules/basicFunctions.js'
 
 linkFont();
 
