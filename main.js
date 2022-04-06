@@ -9,7 +9,7 @@ linkFont();
 // window.success = allcconsole.success
 // window.error = allcconsole.error
 // window.warn = allcconsole.warn
-// window.clear = allcconsole.clear
+window.clear = allcconsole.clear
 // window.condition = allcconsole.condition
 window.allcconsole = allcconsole
 
