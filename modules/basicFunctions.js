@@ -1,6 +1,6 @@
 // Imports
-import { logStyles } from './logStyles';
-import { showTutorial } from './showTutorial';
+import { logStyles } from './logStyles.js';
+import { showTutorial } from './showTutorial.js';
 
 // Console Log
 const log = (text, style = `font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 12px;`) =>  {
