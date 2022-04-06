@@ -12,25 +12,66 @@
     <title>ALLC console</title>
     <script src="https://kit.fontawesome.com/1b793eedb9.js" crossorigin="anonymous"></script>
     <style>
+        @keyframes fade {
+            0% {
+                opacity: 0;
+                pointer-events: none;
+            }
+            100% {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+        @keyframes fade2 {
+            0% {
+                opacity: 0;
+                pointer-events: none;
+            }
+            50% {
+                opacity: 0;
+                pointer-events: none;
+            }
+            100% {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #131111
+        }
         button {
             border: 0;
             outline: 0;
             background-color: #211F1F;
             color: white;
-            padding: 10px 10px;
-            border-radius: 5px;
+            padding: 25px 25px;
+            border-radius: 15px;
             cursor: pointer;
             transition: 200ms;
+            font-size: 50px;
+            animation: fade2 2s ease-in-out;
+        }
+        img {
+            transition: 200ms;
+            font-size: 50px;
+            margin-bottom: 20px;
+            animation: fade 2s ease-in-out;
         }
         button:hover {
             background-color: #333030;
         }
         button:focus {
-            box-shadow: 0 0 0 2.5px #211F1F50;
+            box-shadow: 0 0 0 5px #211F1F75;
         }
     </style>
 </head>
 <body>
+    <img src="https://camo.githubusercontent.com/6d4c5731e6bba3eb90053b20bb20a1e4e15d8a10dfec19b3e564b6bdae7ecf44/68747470733a2f2f692e696d6775722e636f6d2f6a6b70583654612e706e67" alt="ALLCCONSOLE logo">
     <button><i class="fa-brands fa-github"></i> Documentation at Github</button>
 
     <script type="module" src="main.js"></script>
