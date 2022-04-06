@@ -12,13 +12,13 @@ const log = (text, style = `font-family: 'Poppins', sans-serif; font-weight: 400
     }
 }
 
-let fileName = getCurrentLine().file.split(document.location.protocol + '//' + document.location.host + '/')[1];
+// let fileName = getCurrentLine().file.split(document.location.protocol + '//' + document.location.host + '/')[1];
 
 // Throw success message
 const success = (text) => console.log(`%c ✅ Success:  ${text}`, `color: #2ecc71; font-family: Poppins; font-weight: 600; font-size: 13px; padding: 5px; background: #2ecc7150; border-radius: 5px;`);
 
 // Throw error message
-const error = (text) => console.log(`%c ❌ Error in ${fileName} at line ${getCurrentLine().line}: ${text}`, `color: #e74c3c; font-family: Poppins; font-weight: 600; font-size: 13px; padding: 5px; background: #e74c3c50; border-radius: 5px;`);
+const error = (text) => console.log(`%c ❌ Error: ${text}`, `color: #e74c3c; font-family: Poppins; font-weight: 600; font-size: 13px; padding: 5px; background: #e74c3c50; border-radius: 5px;`);
 
 // Throw warn message
 const warn = (text) => console.log(`%c ⚠️ Warning: ${text}`, `color: #f1c40f; font-family: Poppins; font-weight: 600; font-size: 13px; padding: 5px; background: #f1c40f50; border-radius: 5px;`);
