@@ -24,6 +24,4 @@ if (document.body.getAttribute('disableTutorial') === 'true' || document.body.ge
     allcconsole.showTutorial();
 }
 
-allcconsole.error('YES')
-
 export { allcconsole }
