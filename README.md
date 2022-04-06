@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/github/package-json/v/violaterz/allcconsole) ![badge](https://img.shields.io/github/license/violaterz/allcconsole)  ![badge](https://img.shields.io/github/last-commit/violaterz/allcconsole) ![badge](https://img.shields.io/github/issues/violaterz/allcconsole)
 <p>
-   <a href="PWGjZp45rg">
+   <a href="https://discord.gg/PWGjZp45rg">
    <img src="https://img.shields.io/discord/943805190543384586?logo=discord"
       alt="chat on Discord"></a>
 <p>
