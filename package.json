@@ -1,6 +1,6 @@
 {
-  "name": "xconsole.js",
-  "version": "0.1.0",
+  "name": "allcconsole.js",
+  "version": "0.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
