@@ -11,7 +11,7 @@ ALLCCONSOLE.js improves readability, makes the default console look beautiful an
 ## Installation
 ALLCCONSOLE.js is currently just available in using es6 modules. Import the module using....
 ```javascript
-import { allcconsole } from 'https://cdn.allc.uk/allcconsole/main.js'
+import { allcconsole } from 'https://violaterz.github.io/allcconsole/main.js'
 ```
 
 ## Usage
