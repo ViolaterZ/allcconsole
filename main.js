@@ -4,10 +4,6 @@ import getCurrentLine from '//cdn.skypack.dev/get-current-line@^6.6.0';
 
 linkFont();
 
-document.body.querySelector('button').addEventListener('click', function (e) {
-    window.open('https://github.com/ViolaterZ/allcconsole')
-})
-
 // window.log = allcconsole.log
 // window.logStyles = allcconsole.logStyles
 // window.showTutorial = allcconsole.showTutorial
