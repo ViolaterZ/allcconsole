@@ -2,7 +2,7 @@ import { allcconsole } from './basicFunctions.js';
 
 const showTutorial = () => {
     // Importing dependencies
-    allcconsole.warn(`This app contains just a preview of the allcconsole v0.1.0 with bugs and not full functionality.`);
+    allcconsole.warn(`This app contains allcconsole v0.1.1 with bugs and not full functionality.`);
     allcconsole.log(`📃 Logs from allcconsole`, allcconsole.logStyles.modern(`#ffffff`))
     allcconsole.success(`Imported all 📦 modules`);
     allcconsole.success(`Loaded all 😃 dependencies`);

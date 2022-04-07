@@ -24,4 +24,5 @@ if (document.body.getAttribute('disableTutorial') === 'true' || document.body.ge
     allcconsole.showTutorial();
 }
 
+// allcconsole.log(browserSystemDetect())
 export { allcconsole }

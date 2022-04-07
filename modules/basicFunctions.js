@@ -2,6 +2,7 @@
 import { logStyles } from './logStyles.js';
 import { showTutorial } from './showTutorial.js';
 import getCurrentLine from '//cdn.skypack.dev/get-current-line@^6.6.0';
+import browserSystemDetect from 'https://cdn.skypack.dev/browser-system-detect';
 
 // Console Log
 const log = (text, style = `font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 12px;`) =>  {
@@ -27,6 +28,7 @@ const warn = (text) => console.log(`%c ⚠️ Warning: ${text}`, `color: #f1c40f
 const clear = () => {
     console.clear();
     success(`Cleared the console`);
+    setTimeout(() => console.clear(), 2500)
 }
 
 // Check if the given condition is true or false
@@ -75,16 +77,32 @@ const countTime = function () {
 
 // Display memory
 const memory = () => {
-    log(`jsHeapSizeLimit: ${console.memory.jsHeapSizeLimit / 1000000}MB\n totalJSHeapSize: ${console.memory.totalJSHeapSize / 1000000}MB\n usedJSHeapSize: ${console.memory.usedJSHeapSize / 1000000}MB`, logStyles.modern('#3498db'));
+    log(`JS Heap Size Limit: ${console.memory.jsHeapSizeLimit / 1000000}MB\n Total JS Heap Size: ${console.memory.totalJSHeapSize / 1000000}MB\n Used JS Heap Size: ${console.memory.usedJSHeapSize / 1000000}MB`, logStyles.modern('#3498db'));
+}
+
+// Get browser info
+let browserInfo = browserSystemDetect().browser;
+
+// Display browser Info
+const browser = () => {
+    log(`Name: ${browserInfo.name}\n Up to Date: ${browserInfo.uptodate}\n Version: ${browserInfo.version}\n Canvas Supported: ${browserInfo.features.canvas}\n WebGL Supported: ${browserInfo.features.webgl}`, logStyles.modern('#3498db'))
+}
+
+// Get platform
+const platform = () => {
+    return browserSystemDetect().platform;
 }
 
 // Object
 const allcconsole = {
+    browser,
+    browserInfo,
     clear,
     condition,
     count,
     countReset,
     countTime,
+    platform,
     getExecutionInfo: getCurrentLine,
     dir,
     error,
