@@ -15,7 +15,7 @@ linkFont();
 window.allcconsole = allcconsole
 
 if (document.body.getAttribute('disableTutorial') === 'true' || document.body.getAttribute('disableTutorial') === '') {
-    allcconsole.success(`Tutorial was disabled`);
+   //  allcconsole.success(`Tutorial was disabled`);
 } else {
     allcconsole.showTutorial();
 }
